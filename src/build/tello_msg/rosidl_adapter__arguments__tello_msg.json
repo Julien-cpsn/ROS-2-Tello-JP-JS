@@ -1,8 +1,0 @@
-{
-  "package_name": "tello_msg",
-  "non_idl_tuples": [
-    "/home/triton_08/tello_jp_jc_ws/src/tello_msg:msg/TelloStatus.msg",
-    "/home/triton_08/tello_jp_jc_ws/src/tello_msg:msg/TelloID.msg",
-    "/home/triton_08/tello_jp_jc_ws/src/tello_msg:msg/TelloWifiConfig.msg"
-  ]
-}
