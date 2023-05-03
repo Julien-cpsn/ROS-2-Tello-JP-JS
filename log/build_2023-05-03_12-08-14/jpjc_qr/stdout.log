@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/jpjc_qr/jpjc_qr.egg-info/PKG-INFO
+writing dependency_links to ../../build/jpjc_qr/jpjc_qr.egg-info/dependency_links.txt
+writing entry points to ../../build/jpjc_qr/jpjc_qr.egg-info/entry_points.txt
+writing requirements to ../../build/jpjc_qr/jpjc_qr.egg-info/requires.txt
+writing top-level names to ../../build/jpjc_qr/jpjc_qr.egg-info/top_level.txt
+reading manifest file '../../build/jpjc_qr/jpjc_qr.egg-info/SOURCES.txt'
+writing manifest file '../../build/jpjc_qr/jpjc_qr.egg-info/SOURCES.txt'
+running build
+running build_py
+copying jpjc_qr/qr_follower.py -> /home/triton_08/tello_jp_jc_ws/build/jpjc_qr/build/lib/jpjc_qr
+running install
+running install_lib
+copying /home/triton_08/tello_jp_jc_ws/build/jpjc_qr/build/lib/jpjc_qr/qr_follower.py -> /home/triton_08/tello_jp_jc_ws/install/jpjc_qr/lib/python3.10/site-packages/jpjc_qr
+byte-compiling /home/triton_08/tello_jp_jc_ws/install/jpjc_qr/lib/python3.10/site-packages/jpjc_qr/qr_follower.py to qr_follower.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/triton_08/tello_jp_jc_ws/install/jpjc_qr/lib/python3.10/site-packages/jpjc_qr-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/jpjc_qr/jpjc_qr.egg-info to /home/triton_08/tello_jp_jc_ws/install/jpjc_qr/lib/python3.10/site-packages/jpjc_qr-0.0.0-py3.10.egg-info
+running install_scripts
+Installing qr script to /home/triton_08/tello_jp_jc_ws/install/jpjc_qr/lib/jpjc_qr
+Installing qr_follower script to /home/triton_08/tello_jp_jc_ws/install/jpjc_qr/lib/jpjc_qr
+writing list of installed files to '/home/triton_08/tello_jp_jc_ws/build/jpjc_qr/install.log'

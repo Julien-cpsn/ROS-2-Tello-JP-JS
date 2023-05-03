@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/jpjc_joy/jpjc_joy.egg-info/PKG-INFO
+writing dependency_links to ../../build/jpjc_joy/jpjc_joy.egg-info/dependency_links.txt
+writing entry points to ../../build/jpjc_joy/jpjc_joy.egg-info/entry_points.txt
+writing requirements to ../../build/jpjc_joy/jpjc_joy.egg-info/requires.txt
+writing top-level names to ../../build/jpjc_joy/jpjc_joy.egg-info/top_level.txt
+reading manifest file '../../build/jpjc_joy/jpjc_joy.egg-info/SOURCES.txt'
+writing manifest file '../../build/jpjc_joy/jpjc_joy.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+copying package.xml -> /home/triton_08/tello_jp_jc_ws/install/jpjc_joy/share/jpjc_joy
+running install_egg_info
+removing '/home/triton_08/tello_jp_jc_ws/install/jpjc_joy/lib/python3.10/site-packages/jpjc_joy-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/jpjc_joy/jpjc_joy.egg-info to /home/triton_08/tello_jp_jc_ws/install/jpjc_joy/lib/python3.10/site-packages/jpjc_joy-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy script to /home/triton_08/tello_jp_jc_ws/install/jpjc_joy/lib/jpjc_joy
+writing list of installed files to '/home/triton_08/tello_jp_jc_ws/build/jpjc_joy/install.log'

@@ -1,0 +1,4 @@
+[console_scripts]
+qr = jpjc_qr.qr:main
+qr_follower = jpjc_qr.qr_follower:main
+

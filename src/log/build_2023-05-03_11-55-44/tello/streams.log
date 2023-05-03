@@ -1,0 +1,26 @@
+[0.440s] Invoking command in '/home/triton_08/tello_jp_jc_ws/src/tello': AMENT_PREFIX_PATH=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triton_08/tello_jp_jc_ws/src/build/tello/prefix_override:/home/triton_08/tello_jp_jc_ws/src/install/tello/lib/python3.10/site-packages:/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tello build --build-base /home/triton_08/tello_jp_jc_ws/src/build/tello/build install --record /home/triton_08/tello_jp_jc_ws/src/build/tello/install.log --install-scripts $base/lib/tello --single-version-externally-managed
+[0.612s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.612s]   warnings.warn(
+[0.617s] running egg_info
+[0.618s] writing ../build/tello/tello.egg-info/PKG-INFO
+[0.618s] writing dependency_links to ../build/tello/tello.egg-info/dependency_links.txt
+[0.618s] writing entry points to ../build/tello/tello.egg-info/entry_points.txt
+[0.618s] writing requirements to ../build/tello/tello.egg-info/requires.txt
+[0.618s] writing top-level names to ../build/tello/tello.egg-info/top_level.txt
+[0.619s] reading manifest file '../build/tello/tello.egg-info/SOURCES.txt'
+[0.620s] adding license file 'LICENSE.txt'
+[0.620s] writing manifest file '../build/tello/tello.egg-info/SOURCES.txt'
+[0.620s] running build
+[0.620s] running build_py
+[0.621s] running install
+[0.621s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.621s]   warnings.warn(
+[0.621s] running install_lib
+[0.621s] running install_data
+[0.622s] running install_egg_info
+[0.623s] removing '/home/triton_08/tello_jp_jc_ws/src/install/tello/lib/python3.10/site-packages/tello-0.1.0-py3.10.egg-info' (and everything under it)
+[0.623s] Copying ../build/tello/tello.egg-info to /home/triton_08/tello_jp_jc_ws/src/install/tello/lib/python3.10/site-packages/tello-0.1.0-py3.10.egg-info
+[0.624s] running install_scripts
+[0.638s] Installing tello script to /home/triton_08/tello_jp_jc_ws/src/install/tello/lib/tello
+[0.638s] writing list of installed files to '/home/triton_08/tello_jp_jc_ws/src/build/tello/install.log'
+[0.654s] Invoked command in '/home/triton_08/tello_jp_jc_ws/src/tello' returned '0': AMENT_PREFIX_PATH=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triton_08/tello_jp_jc_ws/src/build/tello/prefix_override:/home/triton_08/tello_jp_jc_ws/src/install/tello/lib/python3.10/site-packages:/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tello build --build-base /home/triton_08/tello_jp_jc_ws/src/build/tello/build install --record /home/triton_08/tello_jp_jc_ws/src/build/tello/install.log --install-scripts $base/lib/tello --single-version-externally-managed

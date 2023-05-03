@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/triton_08/tello_jp_jc_ws/install/jpjc_qr/lib/python3.10/site-packages/jpjc_qr/qr.py", line 42
+    } else {
+    ^
+SyntaxError: unmatched '}'
+

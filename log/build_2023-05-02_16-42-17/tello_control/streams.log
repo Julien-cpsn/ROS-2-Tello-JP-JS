@@ -1,0 +1,22 @@
+[0.413s] Invoking command in '/home/triton_08/tello_jp_jc_ws/build/tello_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake --build /home/triton_08/tello_jp_jc_ws/build/tello_control -- -j16 -l16
+[0.442s] [100%] Built target tello_control
+[0.449s] Invoked command in '/home/triton_08/tello_jp_jc_ws/build/tello_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake --build /home/triton_08/tello_jp_jc_ws/build/tello_control -- -j16 -l16
+[0.463s] Invoking command in '/home/triton_08/tello_jp_jc_ws/build/tello_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake --install /home/triton_08/tello_jp_jc_ws/build/tello_control
+[0.473s] -- Install configuration: ""
+[0.474s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/lib/tello_control/tello_control
+[0.475s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/ament_index/resource_index/package_run_dependencies/tello_control
+[0.476s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/ament_index/resource_index/parent_prefix_path/tello_control
+[0.476s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/tello_control/environment/ament_prefix_path.sh
+[0.477s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/tello_control/environment/ament_prefix_path.dsv
+[0.478s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/tello_control/environment/path.sh
+[0.478s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/tello_control/environment/path.dsv
+[0.478s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/tello_control/local_setup.bash
+[0.478s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/tello_control/local_setup.sh
+[0.479s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/tello_control/local_setup.zsh
+[0.479s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/tello_control/local_setup.dsv
+[0.481s] -- Installing: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/tello_control/package.dsv
+[0.481s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/ament_index/resource_index/packages/tello_control
+[0.482s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/tello_control/cmake/tello_controlConfig.cmake
+[0.483s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/tello_control/cmake/tello_controlConfig-version.cmake
+[0.483s] -- Up-to-date: /home/triton_08/tello_jp_jc_ws/install/tello_control/share/tello_control/package.xml
+[0.487s] Invoked command in '/home/triton_08/tello_jp_jc_ws/build/tello_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake --install /home/triton_08/tello_jp_jc_ws/build/tello_control

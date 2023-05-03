@@ -1,0 +1,23 @@
+[0.776s] Invoking command in '/home/triton_08/tello_jp_jc_ws/src/jpjc_joy': PYTHONPATH=/home/triton_08/tello_jp_jc_ws/build/jpjc_joy/prefix_override:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jpjc_joy build --build-base /home/triton_08/tello_jp_jc_ws/build/jpjc_joy/build install --record /home/triton_08/tello_jp_jc_ws/build/jpjc_joy/install.log --single-version-externally-managed
+[0.955s] running egg_info
+[0.956s] writing ../../build/jpjc_joy/jpjc_joy.egg-info/PKG-INFO
+[0.956s] writing dependency_links to ../../build/jpjc_joy/jpjc_joy.egg-info/dependency_links.txt
+[0.956s] writing entry points to ../../build/jpjc_joy/jpjc_joy.egg-info/entry_points.txt
+[0.956s] writing requirements to ../../build/jpjc_joy/jpjc_joy.egg-info/requires.txt
+[0.956s] writing top-level names to ../../build/jpjc_joy/jpjc_joy.egg-info/top_level.txt
+[0.957s] reading manifest file '../../build/jpjc_joy/jpjc_joy.egg-info/SOURCES.txt'
+[0.958s] writing manifest file '../../build/jpjc_joy/jpjc_joy.egg-info/SOURCES.txt'
+[0.959s] running build
+[0.959s] running build_py
+[0.959s] running install
+[0.959s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.959s]   warnings.warn(
+[0.960s] running install_lib
+[0.960s] running install_data
+[0.960s] running install_egg_info
+[0.961s] removing '/home/triton_08/tello_jp_jc_ws/install/jpjc_joy/lib/python3.10/site-packages/jpjc_joy-0.0.0-py3.10.egg-info' (and everything under it)
+[0.961s] Copying ../../build/jpjc_joy/jpjc_joy.egg-info to /home/triton_08/tello_jp_jc_ws/install/jpjc_joy/lib/python3.10/site-packages/jpjc_joy-0.0.0-py3.10.egg-info
+[0.962s] running install_scripts
+[0.977s] Installing joy script to /home/triton_08/tello_jp_jc_ws/install/jpjc_joy/lib/jpjc_joy
+[0.977s] writing list of installed files to '/home/triton_08/tello_jp_jc_ws/build/jpjc_joy/install.log'
+[0.997s] Invoked command in '/home/triton_08/tello_jp_jc_ws/src/jpjc_joy' returned '0': PYTHONPATH=/home/triton_08/tello_jp_jc_ws/build/jpjc_joy/prefix_override:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jpjc_joy build --build-base /home/triton_08/tello_jp_jc_ws/build/jpjc_joy/build install --record /home/triton_08/tello_jp_jc_ws/build/jpjc_joy/install.log --single-version-externally-managed

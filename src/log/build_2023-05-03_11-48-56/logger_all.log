@@ -1,0 +1,367 @@
+[0.233s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.233s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f24b2b78f10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f24b332af80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f24b332af80>>)
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.255s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/triton_08/tello_jp_jc_ws/src'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_joy) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_joy) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_joy) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_joy) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_joy) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_joy) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_joy) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_joy) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'jpjc_joy' with type 'ros.ament_python' and name 'jpjc_joy'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_qr) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_qr) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_qr) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_qr) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_qr) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_qr) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_qr) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_qr) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(jpjc_qr) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'jpjc_qr' with type 'ros.ament_python' and name 'jpjc_qr'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tello) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tello) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tello) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tello) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tello) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tello) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tello) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tello) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(tello) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'tello' with type 'ros.ament_python' and name 'tello'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tello_control) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tello_control) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tello_control) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tello_control) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tello_control) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tello_control) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tello_control) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tello_control) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tello_control) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'tello_control' with type 'ros.ament_cmake' and name 'tello_control'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tello_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(tello_msg) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(tello_msg) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(tello_msg) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(tello_msg) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(tello_msg) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(tello_msg) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(tello_msg) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(tello_msg) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'tello_msg' with type 'ros.ament_cmake' and name 'tello_msg'
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/triton_08/tello_jp_jc_ws/install
+[0.289s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/humble
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'jpjc_joy' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_joy' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'jpjc_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triton_08/tello_jp_jc_ws/src/build/jpjc_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy', 'merge_install': False, 'path': '/home/triton_08/tello_jp_jc_ws/src/jpjc_joy', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_qr' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_qr' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_qr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_qr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'jpjc_qr' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'jpjc_qr' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'jpjc_qr' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'jpjc_qr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'jpjc_qr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'jpjc_qr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr', 'merge_install': False, 'path': '/home/triton_08/tello_jp_jc_ws/src/jpjc_qr', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'tello_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triton_08/tello_jp_jc_ws/src/build/tello_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triton_08/tello_jp_jc_ws/src/install/tello_control', 'merge_install': False, 'path': '/home/triton_08/tello_jp_jc_ws/src/tello_control', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'tello_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triton_08/tello_jp_jc_ws/src/build/tello_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg', 'merge_install': False, 'path': '/home/triton_08/tello_jp_jc_ws/src/tello_msg', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'tello' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triton_08/tello_jp_jc_ws/src/build/tello', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triton_08/tello_jp_jc_ws/src/install/tello', 'merge_install': False, 'path': '/home/triton_08/tello_jp_jc_ws/src/tello', 'symlink_install': False, 'test_result_base': None}
+[0.342s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.344s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/triton_08/tello_jp_jc_ws/src/tello_msg' with build type 'ament_cmake'
+[0.344s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/triton_08/tello_jp_jc_ws/src/tello_msg'
+[0.347s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.351s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/triton_08/tello_jp_jc_ws/src/jpjc_joy' with build type 'ament_python'
+[0.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('jpjc_joy', 'ament_prefix_path')
+[0.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/share/jpjc_joy/hook/ament_prefix_path.ps1'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/share/jpjc_joy/hook/ament_prefix_path.dsv'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/share/jpjc_joy/hook/ament_prefix_path.sh'
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/triton_08/tello_jp_jc_ws/src/jpjc_qr' with build type 'ament_python'
+[0.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('jpjc_qr', 'ament_prefix_path')
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/share/jpjc_qr/hook/ament_prefix_path.ps1'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/share/jpjc_qr/hook/ament_prefix_path.dsv'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/share/jpjc_qr/hook/ament_prefix_path.sh'
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.364s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/triton_08/tello_jp_jc_ws/src/tello_control' with build type 'ament_cmake'
+[0.364s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/triton_08/tello_jp_jc_ws/src/tello_control'
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_08/tello_jp_jc_ws/src/build/tello_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake /home/triton_08/tello_jp_jc_ws/src/tello_msg -DCMAKE_INSTALL_PREFIX=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg
+[0.566s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/triton_08/tello_jp_jc_ws/src/jpjc_joy'
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.763s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/triton_08/tello_jp_jc_ws/src/jpjc_qr'
+[0.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_08/tello_jp_jc_ws/src/build/tello_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake /home/triton_08/tello_jp_jc_ws/src/tello_control -DCMAKE_INSTALL_PREFIX=/home/triton_08/tello_jp_jc_ws/src/install/tello_control
+[1.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_08/tello_jp_jc_ws/src/jpjc_joy': PYTHONPATH=/home/triton_08/tello_jp_jc_ws/src/build/jpjc_joy/prefix_override:/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/jpjc_joy build --build-base /home/triton_08/tello_jp_jc_ws/src/build/jpjc_joy/build install --record /home/triton_08/tello_jp_jc_ws/src/build/jpjc_joy/install.log --single-version-externally-managed
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_08/tello_jp_jc_ws/src/jpjc_qr': PYTHONPATH=/home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/prefix_override:/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/jpjc_qr build --build-base /home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/build install --record /home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/install.log --single-version-externally-managed
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_08/tello_jp_jc_ws/src/jpjc_joy' returned '0': PYTHONPATH=/home/triton_08/tello_jp_jc_ws/src/build/jpjc_joy/prefix_override:/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/jpjc_joy build --build-base /home/triton_08/tello_jp_jc_ws/src/build/jpjc_joy/build install --record /home/triton_08/tello_jp_jc_ws/src/build/jpjc_joy/install.log --single-version-externally-managed
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy' for CMake module files
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy' for CMake config files
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/lib'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/bin'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/lib/pkgconfig/jpjc_joy.pc'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/lib/python3.10/site-packages'
+[1.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('jpjc_joy', 'pythonpath')
+[1.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/share/jpjc_joy/hook/pythonpath.ps1'
+[1.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/share/jpjc_joy/hook/pythonpath.dsv'
+[1.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/share/jpjc_joy/hook/pythonpath.sh'
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/bin'
+[1.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jpjc_joy)
+[1.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/share/jpjc_joy/package.ps1'
+[1.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/share/jpjc_joy/package.dsv'
+[1.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/share/jpjc_joy/package.sh'
+[1.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/share/jpjc_joy/package.bash'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/share/jpjc_joy/package.zsh'
+[1.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_08/tello_jp_jc_ws/src/install/jpjc_joy/share/colcon-core/packages/jpjc_joy)
+[1.270s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr' for CMake module files
+[1.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_08/tello_jp_jc_ws/src/jpjc_qr' returned '0': PYTHONPATH=/home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/prefix_override:/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/jpjc_qr build --build-base /home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/build install --record /home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/install.log --single-version-externally-managed
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr' for CMake config files
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/bin'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib/pkgconfig/jpjc_qr.pc'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib/python3.10/site-packages'
+[1.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('jpjc_qr', 'pythonpath')
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/share/jpjc_qr/hook/pythonpath.ps1'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/share/jpjc_qr/hook/pythonpath.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/share/jpjc_qr/hook/pythonpath.sh'
+[1.273s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/bin'
+[1.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jpjc_qr)
+[1.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/share/jpjc_qr/package.ps1'
+[1.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/share/jpjc_qr/package.dsv'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/share/jpjc_qr/package.sh'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/share/jpjc_qr/package.bash'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/share/jpjc_qr/package.zsh'
+[1.275s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/share/colcon-core/packages/jpjc_qr)
+[1.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_08/tello_jp_jc_ws/src/build/tello_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake /home/triton_08/tello_jp_jc_ws/src/tello_control -DCMAKE_INSTALL_PREFIX=/home/triton_08/tello_jp_jc_ws/src/install/tello_control
+[1.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_08/tello_jp_jc_ws/src/build/tello_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake --build /home/triton_08/tello_jp_jc_ws/src/build/tello_control -- -j16 -l16
+[1.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_08/tello_jp_jc_ws/src/build/tello_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake /home/triton_08/tello_jp_jc_ws/src/tello_msg -DCMAKE_INSTALL_PREFIX=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg
+[1.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_08/tello_jp_jc_ws/src/build/tello_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake --build /home/triton_08/tello_jp_jc_ws/src/build/tello_msg -- -j16 -l16
+[3.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_08/tello_jp_jc_ws/src/build/tello_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake --build /home/triton_08/tello_jp_jc_ws/src/build/tello_msg -- -j16 -l16
+[4.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_08/tello_jp_jc_ws/src/build/tello_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake --install /home/triton_08/tello_jp_jc_ws/src/build/tello_msg
+[4.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_msg)
+[4.079s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg' for CMake module files
+[4.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_08/tello_jp_jc_ws/src/build/tello_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake --install /home/triton_08/tello_jp_jc_ws/src/build/tello_msg
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg' for CMake config files
+[4.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msg', 'cmake_prefix_path')
+[4.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/hook/cmake_prefix_path.ps1'
+[4.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/hook/cmake_prefix_path.dsv'
+[4.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/hook/cmake_prefix_path.sh'
+[4.082s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/lib'
+[4.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msg', 'ld_library_path_lib')
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/hook/ld_library_path_lib.ps1'
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/hook/ld_library_path_lib.dsv'
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/hook/ld_library_path_lib.sh'
+[4.084s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/bin'
+[4.084s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/lib/pkgconfig/tello_msg.pc'
+[4.084s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/lib/python3.10/site-packages'
+[4.084s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/bin'
+[4.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/package.ps1'
+[4.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/package.dsv'
+[4.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/package.sh'
+[4.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/package.bash'
+[4.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/package.zsh'
+[4.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/colcon-core/packages/tello_msg)
+[4.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_msg)
+[4.135s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg' for CMake module files
+[4.135s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg' for CMake config files
+[4.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msg', 'cmake_prefix_path')
+[4.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/hook/cmake_prefix_path.ps1'
+[4.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/hook/cmake_prefix_path.dsv'
+[4.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/hook/cmake_prefix_path.sh'
+[4.137s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/lib'
+[4.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msg', 'ld_library_path_lib')
+[4.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/hook/ld_library_path_lib.ps1'
+[4.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/hook/ld_library_path_lib.dsv'
+[4.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/hook/ld_library_path_lib.sh'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/bin'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/lib/pkgconfig/tello_msg.pc'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/lib/python3.10/site-packages'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/bin'
+[4.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/package.ps1'
+[4.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/package.dsv'
+[4.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/package.sh'
+[4.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/package.bash'
+[4.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/tello_msg/package.zsh'
+[4.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/share/colcon-core/packages/tello_msg)
+[4.142s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/triton_08/tello_jp_jc_ws/src/tello' with build type 'ament_python'
+[4.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello', 'ament_prefix_path')
+[4.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello/share/tello/hook/ament_prefix_path.ps1'
+[4.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello/share/tello/hook/ament_prefix_path.dsv'
+[4.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello/share/tello/hook/ament_prefix_path.sh'
+[4.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.354s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/triton_08/tello_jp_jc_ws/src/tello'
+[4.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_08/tello_jp_jc_ws/src/tello': AMENT_PREFIX_PATH=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triton_08/tello_jp_jc_ws/src/build/tello/prefix_override:/home/triton_08/tello_jp_jc_ws/src/install/tello/lib/python3.10/site-packages:/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tello build --build-base /home/triton_08/tello_jp_jc_ws/src/build/tello/build install --record /home/triton_08/tello_jp_jc_ws/src/build/tello/install.log --install-scripts $base/lib/tello --single-version-externally-managed
+[4.817s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello' for CMake module files
+[4.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_08/tello_jp_jc_ws/src/tello' returned '0': AMENT_PREFIX_PATH=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triton_08/tello_jp_jc_ws/src/build/tello/prefix_override:/home/triton_08/tello_jp_jc_ws/src/install/tello/lib/python3.10/site-packages:/home/triton_08/tello_jp_jc_ws/src/install/tello_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tello build --build-base /home/triton_08/tello_jp_jc_ws/src/build/tello/build install --record /home/triton_08/tello_jp_jc_ws/src/build/tello/install.log --install-scripts $base/lib/tello --single-version-externally-managed
+[4.817s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello' for CMake config files
+[4.818s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello/lib'
+[4.818s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello/bin'
+[4.818s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello/lib/pkgconfig/tello.pc'
+[4.818s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello/lib/python3.10/site-packages'
+[4.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello', 'pythonpath')
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello/share/tello/hook/pythonpath.ps1'
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello/share/tello/hook/pythonpath.dsv'
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello/share/tello/hook/pythonpath.sh'
+[4.820s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello/bin'
+[4.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello)
+[4.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello/share/tello/package.ps1'
+[4.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello/share/tello/package.dsv'
+[4.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello/share/tello/package.sh'
+[4.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello/share/tello/package.bash'
+[4.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello/share/tello/package.zsh'
+[4.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_08/tello_jp_jc_ws/src/install/tello/share/colcon-core/packages/tello)
+[7.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_08/tello_jp_jc_ws/src/build/tello_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake --build /home/triton_08/tello_jp_jc_ws/src/build/tello_control -- -j16 -l16
+[7.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_08/tello_jp_jc_ws/src/build/tello_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake --install /home/triton_08/tello_jp_jc_ws/src/build/tello_control
+[7.033s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_control)
+[7.035s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control' for CMake module files
+[7.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_08/tello_jp_jc_ws/src/build/tello_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_08/tello_jp_jc_ws/install/tello:/home/triton_08/tello_jp_jc_ws/install/jpjc_qr:/home/triton_08/tello_jp_jc_ws/install/jpjc_joy:/opt/ros/humble /usr/bin/cmake --install /home/triton_08/tello_jp_jc_ws/src/build/tello_control
+[7.035s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control' for CMake config files
+[7.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_control', 'cmake_prefix_path')
+[7.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/hook/cmake_prefix_path.ps1'
+[7.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/hook/cmake_prefix_path.dsv'
+[7.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/hook/cmake_prefix_path.sh'
+[7.037s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/lib'
+[7.037s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/bin'
+[7.037s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/lib/pkgconfig/tello_control.pc'
+[7.037s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/lib/python3.10/site-packages'
+[7.037s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/bin'
+[7.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/package.ps1'
+[7.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/package.dsv'
+[7.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/package.sh'
+[7.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/package.bash'
+[7.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/package.zsh'
+[7.040s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/colcon-core/packages/tello_control)
+[7.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_control)
+[7.054s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control' for CMake module files
+[7.054s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control' for CMake config files
+[7.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_control', 'cmake_prefix_path')
+[7.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/hook/cmake_prefix_path.ps1'
+[7.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/hook/cmake_prefix_path.dsv'
+[7.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/hook/cmake_prefix_path.sh'
+[7.057s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/lib'
+[7.057s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/bin'
+[7.057s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/lib/pkgconfig/tello_control.pc'
+[7.057s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/lib/python3.10/site-packages'
+[7.057s] Level 1:colcon.colcon_core.environment:checking '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/bin'
+[7.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/package.ps1'
+[7.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/package.dsv'
+[7.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/package.sh'
+[7.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/package.bash'
+[7.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/tello_control/package.zsh'
+[7.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_08/tello_jp_jc_ws/src/install/tello_control/share/colcon-core/packages/tello_control)
+[7.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.060s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.064s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.064s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.064s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.074s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/triton_08/tello_jp_jc_ws/src/install/local_setup.ps1'
+[7.075s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/triton_08/tello_jp_jc_ws/src/install/_local_setup_util_ps1.py'
+[7.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/triton_08/tello_jp_jc_ws/src/install/setup.ps1'
+[7.077s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/triton_08/tello_jp_jc_ws/src/install/local_setup.sh'
+[7.078s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/triton_08/tello_jp_jc_ws/src/install/_local_setup_util_sh.py'
+[7.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/triton_08/tello_jp_jc_ws/src/install/setup.sh'
+[7.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/triton_08/tello_jp_jc_ws/src/install/local_setup.bash'
+[7.080s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/triton_08/tello_jp_jc_ws/src/install/setup.bash'
+[7.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/triton_08/tello_jp_jc_ws/src/install/local_setup.zsh'
+[7.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/triton_08/tello_jp_jc_ws/src/install/setup.zsh'

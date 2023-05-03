@@ -1,0 +1,2 @@
+Invoking command in '/home/triton_08/tello_jp_jc_ws/build/tello_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/triton_08/tello_jp_jc_ws/build/tello_msg -- -j16 -l16
+Invoked command in '/home/triton_08/tello_jp_jc_ws/build/tello_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/triton_08/tello_jp_jc_ws/build/tello_msg -- -j16 -l16

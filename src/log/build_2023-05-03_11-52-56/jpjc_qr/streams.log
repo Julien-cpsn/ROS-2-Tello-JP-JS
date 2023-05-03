@@ -1,0 +1,27 @@
+[0.788s] Invoking command in '/home/triton_08/tello_jp_jc_ws/src/jpjc_qr': PYTHONPATH=/home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/prefix_override:/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/jpjc_qr build --build-base /home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/build install --record /home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/install.log --single-version-externally-managed
+[0.968s] running egg_info
+[0.969s] writing ../build/jpjc_qr/jpjc_qr.egg-info/PKG-INFO
+[0.969s] writing dependency_links to ../build/jpjc_qr/jpjc_qr.egg-info/dependency_links.txt
+[0.969s] writing entry points to ../build/jpjc_qr/jpjc_qr.egg-info/entry_points.txt
+[0.969s] writing requirements to ../build/jpjc_qr/jpjc_qr.egg-info/requires.txt
+[0.969s] writing top-level names to ../build/jpjc_qr/jpjc_qr.egg-info/top_level.txt
+[0.970s] reading manifest file '../build/jpjc_qr/jpjc_qr.egg-info/SOURCES.txt'
+[0.971s] writing manifest file '../build/jpjc_qr/jpjc_qr.egg-info/SOURCES.txt'
+[0.971s] running build
+[0.972s] running build_py
+[0.972s] copying jpjc_qr/qr_follower.py -> /home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/build/lib/jpjc_qr
+[0.972s] running install
+[0.972s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.972s]   warnings.warn(
+[0.972s] running install_lib
+[0.972s] copying /home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/build/lib/jpjc_qr/qr_follower.py -> /home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib/python3.10/site-packages/jpjc_qr
+[0.973s] byte-compiling /home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib/python3.10/site-packages/jpjc_qr/qr_follower.py to qr_follower.cpython-310.pyc
+[0.973s] running install_data
+[0.974s] running install_egg_info
+[0.975s] removing '/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib/python3.10/site-packages/jpjc_qr-0.0.0-py3.10.egg-info' (and everything under it)
+[0.975s] Copying ../build/jpjc_qr/jpjc_qr.egg-info to /home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib/python3.10/site-packages/jpjc_qr-0.0.0-py3.10.egg-info
+[0.976s] running install_scripts
+[0.991s] Installing qr script to /home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib/jpjc_qr
+[0.991s] Installing qr_follower script to /home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib/jpjc_qr
+[0.991s] writing list of installed files to '/home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/install.log'
+[1.019s] Invoked command in '/home/triton_08/tello_jp_jc_ws/src/jpjc_qr' returned '0': PYTHONPATH=/home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/prefix_override:/home/triton_08/tello_jp_jc_ws/src/install/jpjc_qr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/jpjc_qr build --build-base /home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/build install --record /home/triton_08/tello_jp_jc_ws/src/build/jpjc_qr/install.log --single-version-externally-managed

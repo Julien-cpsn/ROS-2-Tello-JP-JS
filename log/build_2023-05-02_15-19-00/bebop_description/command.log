@@ -1,0 +1,2 @@
+Invoking command in '/home/triton_08/tello_jp_jc_ws/build/bebop_description': /usr/bin/cmake /home/triton_08/tello_jp_jc_ws/jpjc_ws/src/bebop_autonomy/bebop_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/triton_08/tello_jp_jc_ws/install/bebop_description
+Invoked command in '/home/triton_08/tello_jp_jc_ws/build/bebop_description' returned '1': /usr/bin/cmake /home/triton_08/tello_jp_jc_ws/jpjc_ws/src/bebop_autonomy/bebop_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/triton_08/tello_jp_jc_ws/install/bebop_description

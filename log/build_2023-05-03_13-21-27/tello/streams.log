@@ -1,0 +1,26 @@
+[0.454s] Invoking command in '/home/triton_08/tello_jp_jc_ws/src/tello': PYTHONPATH=/home/triton_08/tello_jp_jc_ws/build/tello/prefix_override:/home/triton_08/tello_jp_jc_ws/install/tello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tello build --build-base /home/triton_08/tello_jp_jc_ws/build/tello/build install --record /home/triton_08/tello_jp_jc_ws/build/tello/install.log --install-scripts $base/lib/tello --single-version-externally-managed
+[0.624s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.624s]   warnings.warn(
+[0.629s] running egg_info
+[0.630s] writing ../../build/tello/tello.egg-info/PKG-INFO
+[0.630s] writing dependency_links to ../../build/tello/tello.egg-info/dependency_links.txt
+[0.630s] writing entry points to ../../build/tello/tello.egg-info/entry_points.txt
+[0.630s] writing requirements to ../../build/tello/tello.egg-info/requires.txt
+[0.630s] writing top-level names to ../../build/tello/tello.egg-info/top_level.txt
+[0.631s] reading manifest file '../../build/tello/tello.egg-info/SOURCES.txt'
+[0.632s] adding license file 'LICENSE.txt'
+[0.632s] writing manifest file '../../build/tello/tello.egg-info/SOURCES.txt'
+[0.632s] running build
+[0.632s] running build_py
+[0.632s] running install
+[0.632s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.633s]   warnings.warn(
+[0.633s] running install_lib
+[0.633s] running install_data
+[0.634s] running install_egg_info
+[0.635s] removing '/home/triton_08/tello_jp_jc_ws/install/tello/lib/python3.10/site-packages/tello-0.1.0-py3.10.egg-info' (and everything under it)
+[0.635s] Copying ../../build/tello/tello.egg-info to /home/triton_08/tello_jp_jc_ws/install/tello/lib/python3.10/site-packages/tello-0.1.0-py3.10.egg-info
+[0.636s] running install_scripts
+[0.650s] Installing tello script to /home/triton_08/tello_jp_jc_ws/install/tello/lib/tello
+[0.650s] writing list of installed files to '/home/triton_08/tello_jp_jc_ws/build/tello/install.log'
+[0.665s] Invoked command in '/home/triton_08/tello_jp_jc_ws/src/tello' returned '0': PYTHONPATH=/home/triton_08/tello_jp_jc_ws/build/tello/prefix_override:/home/triton_08/tello_jp_jc_ws/install/tello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tello build --build-base /home/triton_08/tello_jp_jc_ws/build/tello/build install --record /home/triton_08/tello_jp_jc_ws/build/tello/install.log --install-scripts $base/lib/tello --single-version-externally-managed
