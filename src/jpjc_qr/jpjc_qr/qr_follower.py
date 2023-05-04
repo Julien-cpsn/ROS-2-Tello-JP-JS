@@ -30,6 +30,7 @@ class QrCodeFollower (Node):
     def move(self, bbox):
         side_x_len = int(bbox[0][2][0] - bbox[0][0][0])
         side_z_len = int(bbox[0][2][1] - bbox[0][0][1])
+        second_side_z_len = int(bbox[0][1][1] - bbox[0][3][1])
         diagonal = int(bbox[0][2][0] - bbox[0][0][1])
 
         x_center_offset = side_x_len / 2 + bbox[0][0][0] - 1024 / 2
@@ -50,19 +51,27 @@ class QrCodeFollower (Node):
         linear.z = 0.0
         
         if x_center_offset > 30:
-            linear.x = 20.0
+            linear.x = 25.0
         elif x_center_offset < -30:
-            linear.x = -20.0
+            linear.x = -25.0
 
         if z_center_offset > 30:
-            linear.z = -20.0
+            linear.z = -25.0
         elif z_center_offset < -30:
-            linear.z = 20.0
+            linear.z = 25.0
 
         if diagonal > 60:
-            linear.y = -10.0
+            linear.y = -25.0
         elif diagonal < 30:
-            linear.y = 10.0
+            linear.y = 25.0
+
+        side_z_difference = side_z_len - second_side_z_len
+        print(side_z_difference)
+        if side_z_difference > 5 or side_z_difference < 5:
+            if side_z_len > second_side_z_len:
+                angular.z = -5.0
+            else:
+                angular.z = 5.0
 
         msg = Twist()
         msg.angular = angular
@@ -72,7 +81,7 @@ class QrCodeFollower (Node):
 
     def video(self, image):
         try:
-            frame = CvBridge().imgmsg_to_cv2(image, desired_encoding='passthrough')
+            frame = CvBridge().imgmsg_to_cv2(image, desired_encoding='bgr8')
 
             key = cv2.waitKey(1) & 0xFF
         
@@ -85,7 +94,7 @@ class QrCodeFollower (Node):
                 self.move(bbox)
             
         except Exception as e:
-            self.get_logger().error(e)
+            self.get_logger().info(e)
 
 def main():
     rclpy.init()

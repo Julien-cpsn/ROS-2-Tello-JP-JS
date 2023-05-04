@@ -62,12 +62,6 @@ class QrService(Node):
             self.current_scenar = "dropping"
             self.get_logger().info('Landing')
             self.land.publish(Empty())
-        elif msg.data == "blue_block":
-            self.get_logger().info('Unimplemented blue_block')
-            self
-        elif msg.data == "red_block":
-            self.get_logger().info('Unimplemented red_block')
-            self
 
     def traveling_scenar(self):
         if not self.enabled:
@@ -87,7 +81,7 @@ class QrService(Node):
         angular.z = 0.0
 
         linear = Vector3()
-        linear.x = 10.0
+        linear.x = 20.0
         linear.y = 0.0
         linear.z = 0.0
 

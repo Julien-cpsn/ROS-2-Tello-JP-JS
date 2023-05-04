@@ -10,6 +10,7 @@ from geometry_msgs.msg import Vector3
 
 class Control (Node):
     def __init__(self):
+        self.speed = 3
         self.takeoff_state = False
         self.land_state = True
         self.flip_state = False
@@ -32,6 +33,13 @@ class Control (Node):
 
 
     def joystick_event(self, joy):
+        if joy.axes[5] < -0.30:
+            self.speed = 1
+        elif joy.axes[5] >= -0.30 and joy.axes[5] <= 0.30:
+            self.speed = 2.5
+        elif joy.axes[5] > 0.30: 
+            self.speed = 5
+
         if  joy.buttons[7] and self.land_state and not self.takeoff_state:
                 self.get_logger().info("takeoff")
                 self.takeoff.publish(Empty())
@@ -75,16 +83,16 @@ class Control (Node):
                 self.qr_button_state = False
                 return
 
-            if sum(joy.axes) >= 1:
+            if sum(map(lambda x: abs(x), joy.axes[0:2] + joy.axes[3:5] + joy.axes[6:])) != 0:
                 linear = Vector3()
-                linear.x = -joy.axes[0]*50.0
-                linear.y = joy.axes[1]*50.0
-                linear.z = joy.axes[7]*50.0
+                linear.x = -joy.axes[0] * 15.0 * self.speed
+                linear.y = joy.axes[1] * 15.0 * self.speed
+                linear.z = joy.axes[7] * 15.0 * self.speed
 
                 angular = Vector3()
                 angular.x = 0.0
                 angular.y = 0.0
-                angular.z = -joy.axes[3]*50.0
+                angular.z = -joy.axes[3] * 15.0 * self.speed
 
                 msg = Twist()
                 msg.linear = linear
@@ -92,6 +100,22 @@ class Control (Node):
 
                 self.control.publish(msg)
                 return
+            else:
+                linear = Vector3()
+                linear.x = 0.0
+                linear.y = 0.0
+                linear.z = 0.0
+
+                angular = Vector3()
+                angular.x = 0.0
+                angular.y = 0.0
+                angular.z = 0.0
+
+                msg = Twist()
+                msg.linear = linear
+                msg.angular = angular
+
+                self.control.publish(msg)
         else:
             if joy.buttons[1] and not self.qr_button_state:
                 mode = Bool()
