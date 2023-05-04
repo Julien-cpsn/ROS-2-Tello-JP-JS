@@ -1,3 +1,0 @@
-[0.519s] Invoking command in '/home/triton_08/tello_jp_jc_ws/build/tello_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/triton_08/tello_jp_jc_ws/build/tello_control -- -j16 -l16
-[0.585s] [35m[1mConsolidate compiler generated dependencies of target tello_control[0m
-[0.586s] [100%] Built target tello_control

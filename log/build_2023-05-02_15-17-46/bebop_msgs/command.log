@@ -1,2 +1,0 @@
-Invoking command in '/home/triton_08/tello_jp_jc_ws/build/bebop_msgs': /usr/bin/cmake /home/triton_08/tello_jp_jc_ws/jpjc_ws/src/bebop_autonomy/bebop_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/triton_08/tello_jp_jc_ws/install/bebop_msgs
-Invoked command in '/home/triton_08/tello_jp_jc_ws/build/bebop_msgs' returned '1': /usr/bin/cmake /home/triton_08/tello_jp_jc_ws/jpjc_ws/src/bebop_autonomy/bebop_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/triton_08/tello_jp_jc_ws/install/bebop_msgs
